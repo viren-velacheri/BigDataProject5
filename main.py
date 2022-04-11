@@ -10,6 +10,9 @@ import torch.optim as optim
 import logging
 import random
 import model as mdl
+from torch.nn.parallel import DistributedDataParallel as DDP
+from torch.utils.data.distributed import DistributedSampler
+import argparse
 device = "cpu"
 torch.set_num_threads(4)
 
@@ -24,9 +27,17 @@ def train_model(model, train_loader, optimizer, criterion, epoch):
     """
 
     # remember to exit the train loop at end of the epoch
+    
+    model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
-        # Your code goes here!
-        break
+        data, target = data.to(device), target.to(device)
+        output = model(data)
+        loss = criterion(output, target)
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        if batch_idx % 20 == 0:
+            print(loss)
 
     return None
 
@@ -48,7 +59,10 @@ def test_model(model, test_loader, criterion):
             100. * correct / len(test_loader.dataset)))
             
 
-def main():
+def main(args):
+    os.environ['MASTER_ADDR'] = args.master_ip
+    os.environ['MASTER_PORT'] = '8890'
+
     normalize = transforms.Normalize(mean=[x/255.0 for x in [125.3, 123.0, 113.9]],
                                 std=[x/255.0 for x in [63.0, 62.1, 66.7]])
     transform_train = transforms.Compose([
@@ -61,13 +75,17 @@ def main():
     transform_test = transforms.Compose([
             transforms.ToTensor(),
             normalize])
+    print('begin init process group')
+    torch.distributed.init_process_group('gloo', rank=args.rank, world_size=args.num_nodes)
+    print('Init process group done')
     training_set = datasets.CIFAR10(root="./data", train=True,
                                                 download=True, transform=transform_train)
+    sampler = DistributedSampler(training_set)
     train_loader = torch.utils.data.DataLoader(training_set,
                                                     num_workers=2,
                                                     batch_size=batch_size,
-                                                    sampler=None,
-                                                    shuffle=True,
+                                                    sampler=sampler,
+                                                    shuffle=False,
                                                     pin_memory=True)
     test_set = datasets.CIFAR10(root="./data", train=False,
                                 download=True, transform=transform_test)
@@ -81,12 +99,22 @@ def main():
 
     model = mdl.VGG11()
     model.to(device)
+    model = DDP(model)
     optimizer = optim.SGD(model.parameters(), lr=0.1,
                           momentum=0.9, weight_decay=0.0001)
     # running training for one epoch
+    print('Begin train loop')
     for epoch in range(1):
+        sampler.set_epoch(epoch)
         train_model(model, train_loader, optimizer, training_criterion, epoch)
         test_model(model, test_loader, training_criterion)
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('--master_ip')
+    # Put custom arguments here
+    parser.add_argument('--num_nodes', type=int, default=3)
+    parser.add_argument('--rank', type=int)
+    args = parser.parse_args()
+    main(args)
