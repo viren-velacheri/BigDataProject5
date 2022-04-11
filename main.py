@@ -62,6 +62,7 @@ def test_model(model, test_loader, criterion):
 def main(args):
     os.environ['MASTER_ADDR'] = args.master_ip
     os.environ['MASTER_PORT'] = '8890'
+    port = 8890
 
     normalize = transforms.Normalize(mean=[x/255.0 for x in [125.3, 123.0, 113.9]],
                                 std=[x/255.0 for x in [63.0, 62.1, 66.7]])
@@ -76,7 +77,7 @@ def main(args):
             transforms.ToTensor(),
             normalize])
     print('begin init process group')
-    torch.distributed.init_process_group('gloo', rank=args.rank, world_size=args.num_nodes)
+    torch.distributed.init_process_group('gloo', init_method=f"tcp://{args.master_ip}:{port}",rank=args.rank, world_size=args.num_nodes)
     print('Init process group done')
     training_set = datasets.CIFAR10(root="./data", train=True,
                                                 download=True, transform=transform_train)
