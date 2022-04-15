@@ -1,0 +1,6 @@
+2022-04-14T18:54:38,496 - HandlerTime.Milliseconds:31.96|#ModelName:vgg,Level:Model|#hostname:node0.grp14-a5.ut-cs378-s22-pg0.utah.cloudlab.us,requestID:612e572d-191a-4cd9-8e31-ce4abd45859d,timestamp:1649984078
+2022-04-14T18:54:38,497 - PredictionTime.Milliseconds:32.03|#ModelName:vgg,Level:Model|#hostname:node0.grp14-a5.ut-cs378-s22-pg0.utah.cloudlab.us,requestID:612e572d-191a-4cd9-8e31-ce4abd45859d,timestamp:1649984078
+2022-04-14T18:56:55,943 - HandlerTime.Milliseconds:39.04|#ModelName:vgg,Level:Model|#hostname:node0.grp14-a5.ut-cs378-s22-pg0.utah.cloudlab.us,requestID:8a94d329-01fd-4c44-8314-5a43f502ad26,timestamp:1649984215
+2022-04-14T18:56:55,944 - PredictionTime.Milliseconds:39.14|#ModelName:vgg,Level:Model|#hostname:node0.grp14-a5.ut-cs378-s22-pg0.utah.cloudlab.us,requestID:8a94d329-01fd-4c44-8314-5a43f502ad26,timestamp:1649984215
+2022-04-14T19:12:39,399 - HandlerTime.Milliseconds:37.7|#ModelName:vgg,Level:Model|#hostname:node0.grp14-a5.ut-cs378-s22-pg0.utah.cloudlab.us,requestID:a8222da7-8837-4751-ba6a-6365b996ebc6,timestamp:1649985159
+2022-04-14T19:12:39,400 - PredictionTime.Milliseconds:37.81|#ModelName:vgg,Level:Model|#hostname:node0.grp14-a5.ut-cs378-s22-pg0.utah.cloudlab.us,requestID:a8222da7-8837-4751-ba6a-6365b996ebc6,timestamp:1649985159

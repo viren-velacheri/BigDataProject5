@@ -1,0 +1,469 @@
+2022-04-14T17:54:26,078 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9009
+2022-04-14T17:54:26,080 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - [PID]23963
+2022-04-14T17:54:26,081 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,081 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,078 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9006
+2022-04-14T17:54:26,086 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - [PID]23966
+2022-04-14T17:54:26,087 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,090 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,136 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9013
+2022-04-14T17:54:26,140 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - [PID]23962
+2022-04-14T17:54:26,140 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,140 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,155 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9006.
+2022-04-14T17:54:26,158 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9013.
+2022-04-14T17:54:26,158 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9014
+2022-04-14T17:54:26,159 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9009.
+2022-04-14T17:54:26,159 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - [PID]23979
+2022-04-14T17:54:26,160 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,161 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,169 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-04-14T17:54:26,170 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9012
+2022-04-14T17:54:26,171 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - [PID]23973
+2022-04-14T17:54:26,172 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - [PID]23983
+2022-04-14T17:54:26,172 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,172 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,172 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,172 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,173 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9014.
+2022-04-14T17:54:26,202 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-04-14T17:54:26,199 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9004
+2022-04-14T17:54:26,203 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - [PID]23964
+2022-04-14T17:54:26,203 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,203 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,205 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9012.
+2022-04-14T17:54:26,234 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9004.
+2022-04-14T17:54:26,245 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9008
+2022-04-14T17:54:26,245 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-04-14T17:54:26,246 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - [PID]23980
+2022-04-14T17:54:26,246 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - [PID]23977
+2022-04-14T17:54:26,247 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,247 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,247 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,247 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,262 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9015
+2022-04-14T17:54:26,263 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,263 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - [PID]23981
+2022-04-14T17:54:26,263 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,263 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,264 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,276 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-04-14T17:54:26,276 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,276 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,277 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,280 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-04-14T17:54:26,280 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,282 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - [PID]23976
+2022-04-14T17:54:26,282 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,282 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,282 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,284 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9005
+2022-04-14T17:54:26,292 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - [PID]23961
+2022-04-14T17:54:26,301 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9008.
+2022-04-14T17:54:26,301 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9007
+2022-04-14T17:54:26,301 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,301 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-04-14T17:54:26,302 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - [PID]23965
+2022-04-14T17:54:26,302 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,302 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9011
+2022-04-14T17:54:26,302 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,302 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - [PID]23974
+2022-04-14T17:54:26,303 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,303 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,303 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,292 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9015.
+2022-04-14T17:54:26,330 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,330 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9010
+2022-04-14T17:54:26,330 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,330 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,332 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-04-14T17:54:26,331 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9007.
+2022-04-14T17:54:26,359 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9011.
+2022-04-14T17:54:26,360 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,360 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - [PID]23975
+2022-04-14T17:54:26,361 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,362 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - [PID]23978
+2022-04-14T17:54:26,362 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,362 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9005.
+2022-04-14T17:54:26,363 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T17:54:26,363 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T17:54:26,377 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,387 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-04-14T17:54:26,396 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9010.
+2022-04-14T17:54:26,396 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,397 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,431 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:26,433 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T17:54:28,486 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,535 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,561 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,583 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,593 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,596 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,599 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,604 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,608 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,617 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,618 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,640 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,661 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,668 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,679 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T17:54:28,679 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:00:40,532 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Backend received inference at: 1649980840
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Invoking custom service failed.
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -   File "/users/shaniyur/miniconda3/lib/python3.9/site-packages/ts/service.py", line 102, in predict
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -     ret = self._entry_point(input_batch, self.context)
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -   File "/users/shaniyur/miniconda3/lib/python3.9/site-packages/ts/torch_handler/base_handler.py", line 222, in handle
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -     output = self.inference(data_preprocess)
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -   File "/users/shaniyur/miniconda3/lib/python3.9/site-packages/ts/torch_handler/base_handler.py", line 175, in inference
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -     results = self.model(marshalled_data, *args, **kwargs)
+2022-04-14T18:00:40,706 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -   File "/users/shaniyur/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+2022-04-14T18:00:40,707 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -     return forward_call(*input, **kwargs)
+2022-04-14T18:00:40,707 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -   File "/tmp/models/164d2d92b2724530abbabc012b7bc584/model.py", line 45, in forward
+2022-04-14T18:00:40,707 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -     y = self.fc1(y)
+2022-04-14T18:00:40,707 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -   File "/users/shaniyur/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+2022-04-14T18:00:40,707 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -     return forward_call(*input, **kwargs)
+2022-04-14T18:00:40,707 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -   File "/users/shaniyur/miniconda3/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 103, in forward
+2022-04-14T18:00:40,707 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG -     return F.linear(input, self.weight, self.bias)
+2022-04-14T18:00:40,707 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - RuntimeError: mat1 and mat2 shapes cannot be multiplied (1x25088 and 512x10)
+2022-04-14T18:54:06,844 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-04-14T18:54:06,846 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - [PID]24853
+2022-04-14T18:54:06,846 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,847 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,865 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9013
+2022-04-14T18:54:06,885 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9008
+2022-04-14T18:54:06,896 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - [PID]24855
+2022-04-14T18:54:06,896 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - [PID]24854
+2022-04-14T18:54:06,897 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,899 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,900 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,901 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,924 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9010
+2022-04-14T18:54:06,926 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - [PID]24856
+2022-04-14T18:54:06,926 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,927 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,955 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9011
+2022-04-14T18:54:06,958 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-04-14T18:54:06,959 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9013.
+2022-04-14T18:54:06,961 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - [PID]24865
+2022-04-14T18:54:06,961 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9008.
+2022-04-14T18:54:06,961 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - [PID]24862
+2022-04-14T18:54:06,961 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-04-14T18:54:06,962 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,962 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,962 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,962 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,964 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9010.
+2022-04-14T18:54:06,968 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-04-14T18:54:06,977 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9014
+2022-04-14T18:54:06,982 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9011.
+2022-04-14T18:54:06,982 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-04-14T18:54:06,983 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - [PID]24867
+2022-04-14T18:54:06,983 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - [PID]24859
+2022-04-14T18:54:06,983 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,983 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,984 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,985 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,986 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9007
+2022-04-14T18:54:06,988 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - [PID]24858
+2022-04-14T18:54:06,990 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9014.
+2022-04-14T18:54:06,990 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:06,990 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:06,990 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-04-14T18:54:06,993 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9007.
+2022-04-14T18:54:07,011 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9009
+2022-04-14T18:54:07,012 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9015
+2022-04-14T18:54:07,012 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - [PID]24857
+2022-04-14T18:54:07,013 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:07,013 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:07,014 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - [PID]24866
+2022-04-14T18:54:07,014 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:07,014 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:07,020 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9009.
+2022-04-14T18:54:07,054 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-04-14T18:54:07,054 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9005
+2022-04-14T18:54:07,054 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9004
+2022-04-14T18:54:07,068 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9015.
+2022-04-14T18:54:07,068 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9006
+2022-04-14T18:54:07,069 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9012
+2022-04-14T18:54:07,069 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - [PID]24860
+2022-04-14T18:54:07,069 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - [PID]24863
+2022-04-14T18:54:07,069 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:07,069 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:07,081 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - [PID]24852
+2022-04-14T18:54:07,081 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:07,081 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - [PID]24861
+2022-04-14T18:54:07,081 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:07,081 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:07,081 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:07,081 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:07,081 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - [PID]24864
+2022-04-14T18:54:07,082 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:54:07,082 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:07,082 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:54:07,106 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,106 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,106 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,112 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,112 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,112 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,112 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9006.
+2022-04-14T18:54:07,114 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,120 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,120 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9012.
+2022-04-14T18:54:07,122 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9005.
+2022-04-14T18:54:07,124 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,125 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,126 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-04-14T18:54:07,125 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9004.
+2022-04-14T18:54:07,137 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,150 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,158 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,165 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,168 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:07,168 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:54:09,362 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,388 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,398 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,405 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,443 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,447 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,450 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,451 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,456 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,459 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,477 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,495 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,504 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,514 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,519 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:09,524 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:54:38,463 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Backend received inference at: 1649984078
+2022-04-14T18:56:35,458 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9005
+2022-04-14T18:56:35,459 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - [PID]25227
+2022-04-14T18:56:35,460 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,460 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,492 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-04-14T18:56:35,494 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - [PID]25210
+2022-04-14T18:56:35,494 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-04-14T18:56:35,494 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,495 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,495 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - [PID]25217
+2022-04-14T18:56:35,496 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,497 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,509 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9006
+2022-04-14T18:56:35,506 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9009
+2022-04-14T18:56:35,510 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - [PID]25208
+2022-04-14T18:56:35,510 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,510 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,510 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - [PID]25211
+2022-04-14T18:56:35,511 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,511 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,517 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9011
+2022-04-14T18:56:35,519 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - [PID]25220
+2022-04-14T18:56:35,519 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,519 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,523 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-04-14T18:56:35,524 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-04-14T18:56:35,525 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-04-14T18:56:35,525 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9006.
+2022-04-14T18:56:35,525 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9005.
+2022-04-14T18:56:35,525 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - [PID]25209
+2022-04-14T18:56:35,526 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,526 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,537 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9011.
+2022-04-14T18:56:35,540 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9009.
+2022-04-14T18:56:35,541 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-04-14T18:56:35,547 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9004
+2022-04-14T18:56:35,550 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - [PID]25219
+2022-04-14T18:56:35,551 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,551 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,556 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9004.
+2022-04-14T18:56:35,582 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9008
+2022-04-14T18:56:35,583 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - [PID]25225
+2022-04-14T18:56:35,583 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,583 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,591 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9008.
+2022-04-14T18:56:35,612 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-04-14T18:56:35,612 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9010
+2022-04-14T18:56:35,624 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9012
+2022-04-14T18:56:35,625 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - [PID]25216
+2022-04-14T18:56:35,625 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,625 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - [PID]25221
+2022-04-14T18:56:35,625 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - [PID]25222
+2022-04-14T18:56:35,625 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,625 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,625 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,625 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,626 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,642 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9007
+2022-04-14T18:56:35,660 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-04-14T18:56:35,660 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,662 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - [PID]25212
+2022-04-14T18:56:35,663 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,663 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,663 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,660 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,661 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,660 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,659 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9010.
+2022-04-14T18:56:35,666 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9007.
+2022-04-14T18:56:35,658 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9012.
+2022-04-14T18:56:35,668 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,668 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,669 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,676 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,694 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9013
+2022-04-14T18:56:35,695 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - [PID]25223
+2022-04-14T18:56:35,695 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,696 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,696 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,696 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,698 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,709 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,712 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9013.
+2022-04-14T18:56:35,732 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9015
+2022-04-14T18:56:35,733 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - [PID]25218
+2022-04-14T18:56:35,734 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,734 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,744 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,762 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9015.
+2022-04-14T18:56:35,785 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:35,803 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9014
+2022-04-14T18:56:35,804 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - [PID]25224
+2022-04-14T18:56:35,804 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T18:56:35,805 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T18:56:35,821 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9014.
+2022-04-14T18:56:35,856 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T18:56:37,961 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:37,972 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:37,979 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:37,987 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:37,997 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,010 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,020 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,020 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,038 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,063 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,064 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,067 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,068 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,075 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,082 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:38,111 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T18:56:55,903 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Backend received inference at: 1649984215
+2022-04-14T19:12:15,751 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9009
+2022-04-14T19:12:15,757 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - [PID]25687
+2022-04-14T19:12:15,758 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,759 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,764 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-04-14T19:12:15,766 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - [PID]25686
+2022-04-14T19:12:15,767 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,768 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,773 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9012
+2022-04-14T19:12:15,775 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - [PID]25706
+2022-04-14T19:12:15,775 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,776 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,791 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9015
+2022-04-14T19:12:15,793 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9011
+2022-04-14T19:12:15,793 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - [PID]25704
+2022-04-14T19:12:15,794 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,794 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - [PID]25707
+2022-04-14T19:12:15,794 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,795 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,795 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,803 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-04-14T19:12:15,803 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-04-14T19:12:15,805 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - [PID]25696
+2022-04-14T19:12:15,805 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,805 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,809 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9012.
+2022-04-14T19:12:15,811 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9009.
+2022-04-14T19:12:15,812 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9011.
+2022-04-14T19:12:15,816 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9015.
+2022-04-14T19:12:15,820 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9005
+2022-04-14T19:12:15,821 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - [PID]25703
+2022-04-14T19:12:15,822 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-04-14T19:12:15,823 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,823 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-04-14T19:12:15,824 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,825 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - [PID]25699
+2022-04-14T19:12:15,825 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,825 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,848 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9010
+2022-04-14T19:12:15,849 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - [PID]25705
+2022-04-14T19:12:15,849 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,849 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,853 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-04-14T19:12:15,855 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9005.
+2022-04-14T19:12:15,856 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - [PID]25698
+2022-04-14T19:12:15,856 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,856 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-04-14T19:12:15,856 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,873 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9006
+2022-04-14T19:12:15,889 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9010.
+2022-04-14T19:12:15,889 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9008
+2022-04-14T19:12:15,889 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9013
+2022-04-14T19:12:15,872 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9014
+2022-04-14T19:12:15,890 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - [PID]25700
+2022-04-14T19:12:15,890 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,890 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-04-14T19:12:15,890 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - [PID]25688
+2022-04-14T19:12:15,890 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,902 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - [PID]25697
+2022-04-14T19:12:15,902 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,902 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,902 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - [PID]25702
+2022-04-14T19:12:15,902 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,914 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,915 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,915 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:15,948 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9006.
+2022-04-14T19:12:15,948 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9008.
+2022-04-14T19:12:15,948 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,948 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,948 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,948 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,948 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,954 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9013.
+2022-04-14T19:12:15,955 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,956 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,970 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9014.
+2022-04-14T19:12:15,955 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,970 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,971 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,987 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9007
+2022-04-14T19:12:15,988 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:15,993 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - [PID]25701
+2022-04-14T19:12:15,994 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:15,994 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:16,006 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:16,006 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:16,016 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9007.
+2022-04-14T19:12:16,020 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:16,054 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:16,097 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9004
+2022-04-14T19:12:16,098 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - [PID]25709
+2022-04-14T19:12:16,099 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Torch worker started.
+2022-04-14T19:12:16,101 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2022-04-14T19:12:16,119 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9004.
+2022-04-14T19:12:16,149 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - model_name: vgg, batchSize: 1
+2022-04-14T19:12:18,226 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,237 [INFO ] W-9002-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,254 [INFO ] W-9005-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,281 [INFO ] W-9013-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,292 [INFO ] W-9001-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,298 [INFO ] W-9006-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,311 [INFO ] W-9009-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,319 [INFO ] W-9012-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,335 [INFO ] W-9011-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,337 [INFO ] W-9003-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,371 [INFO ] W-9014-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,392 [INFO ] W-9008-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,399 [INFO ] W-9010-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,399 [INFO ] W-9007-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,405 [INFO ] W-9004-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:18,407 [INFO ] W-9015-vgg_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-04-14T19:12:39,360 [INFO ] W-9000-vgg_1.0-stdout MODEL_LOG - Backend received inference at: 1649985159

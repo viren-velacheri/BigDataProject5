@@ -9,6 +9,8 @@ import torch.nn.functional as F
 import torch.optim as optim
 import logging
 import random
+from torch import save
+from os import path
 import model as mdl
 device = "cpu"
 torch.set_num_threads(4)
@@ -35,7 +37,8 @@ def train_model(model, train_loader, optimizer, criterion, epoch):
         optimizer.step()
         if batch_idx % 20 == 0:
             print(loss)
-
+    
+    save(model.state_dict(), path.join(path.dirname(path.abspath(__file__)), 'vgg_cnn.pt')) 
     return None
 
 def test_model(model, test_loader, criterion):
