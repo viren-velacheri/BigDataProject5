@@ -10,6 +10,7 @@ import torch.optim as optim
 import logging
 import random
 import model as mdl
+import time
 device = "cpu"
 torch.set_num_threads(4)
 
@@ -26,6 +27,7 @@ def train_model(model, train_loader, optimizer, criterion, epoch):
     # remember to exit the train loop at end of the epoch
     
     model.train()
+    start_time = end_time = 0
     for batch_idx, (data, target) in enumerate(train_loader):
         data, target = data.to(device), target.to(device)
         output = model(data)
@@ -34,7 +36,13 @@ def train_model(model, train_loader, optimizer, criterion, epoch):
         loss.backward()
         optimizer.step()
         if batch_idx % 20 == 0:
-            print(loss)
+            print(f"Loss value after {batch_idx} iterations: {loss}")
+        if batch_idx == 0:
+            start_time = time.time()
+        if batch_idx == 39:
+            end_time = time.time()
+            print(f"Average time per iteration: {(end_time - start_time)/39}")
+            break
 
     return None
 
