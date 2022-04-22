@@ -27,17 +27,21 @@ def train_model(model, train_loader, optimizer, criterion, epoch):
 
     # remember to exit the train loop at end of the epoch
     
+    # set model in training mode
     model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
+        # standard training loop
         data, target = data.to(device), target.to(device)
         output = model(data)
         loss = criterion(output, target)
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+        # print the loss value after every 20 iterations
         if batch_idx % 20 == 0:
-            print(loss)
+            print(f"Loss value after {batch_idx} iterations: {loss}")
     
+    # save the trained model into vgg_cnn.pt file
     save(model.state_dict(), path.join(path.dirname(path.abspath(__file__)), 'vgg_cnn.pt')) 
     return None
 

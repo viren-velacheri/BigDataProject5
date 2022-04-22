@@ -29,19 +29,25 @@ def train_model(model, train_loader, optimizer, criterion, epoch):
 
     # remember to exit the train loop at end of the epoch
     
+    # set model in training mode
     model.train()
+    # initialize variables to keep track of beginning and end of iterations index 1-39
     start_time = end_time = 0
     for batch_idx, (data, target) in enumerate(train_loader):
+        # standard training loop
         data, target = data.to(device), target.to(device)
         output = model(data)
         loss = criterion(output, target)
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+        # print the loss value after every 20 iterations
         if batch_idx % 20 == 0:
             print(f"Loss value after {batch_idx} iterations: {loss}")
+        # record start time since first iteration just finished
         if batch_idx == 0:
             start_time = time.time()
+        # record end time since 40th iteration just finished and print avg time per iteration
         if batch_idx == 39:
             end_time = time.time()
             print(f"Average time per iteration: {(end_time - start_time)/39}")
@@ -68,9 +74,6 @@ def test_model(model, test_loader, criterion):
             
 
 def main(args):
-    os.environ['MASTER_ADDR'] = args.master_ip
-    os.environ['MASTER_PORT'] = '8890'
-    port = 8890
 
     normalize = transforms.Normalize(mean=[x/255.0 for x in [125.3, 123.0, 113.9]],
                                 std=[x/255.0 for x in [63.0, 62.1, 66.7]])
@@ -84,11 +87,13 @@ def main(args):
     transform_test = transforms.Compose([
             transforms.ToTensor(),
             normalize])
-    print('begin init process group')
-    torch.distributed.init_process_group('gloo', init_method=f"tcp://{args.master_ip}:{port}",rank=args.rank, world_size=args.num_nodes)
-    print('Init process group done')
+
+    # begin distributed data parallel training with port number set to 8890
+    torch.distributed.init_process_group('gloo', init_method=f"tcp://{args.master_ip}:8890",rank=args.rank, world_size=args.num_nodes)
+
     training_set = datasets.CIFAR10(root="./data", train=True,
                                                 download=True, transform=transform_train)
+    # create distributed sampler used for distributed data parallel training
     sampler = DistributedSampler(training_set)
     train_loader = torch.utils.data.DataLoader(training_set,
                                                     num_workers=2,
@@ -108,22 +113,25 @@ def main(args):
 
     model = mdl.VGG11()
     model.to(device)
+    # register model with distributed data parallel
     model = DDP(model)
     optimizer = optim.SGD(model.parameters(), lr=0.1,
                           momentum=0.9, weight_decay=0.0001)
     # running training for one epoch
-    print('Begin train loop')
     for epoch in range(1):
         sampler.set_epoch(epoch)
         train_model(model, train_loader, optimizer, training_criterion, epoch)
         test_model(model, test_loader, training_criterion)
 
 if __name__ == "__main__":
+    # use argparse to read in command line parameters
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--master_ip')
-    # Put custom arguments here
     parser.add_argument('--num_nodes', type=int, default=3)
     parser.add_argument('--rank', type=int)
+
     args = parser.parse_args()
+
+    # pass in arguments that were read in to main method
     main(args)

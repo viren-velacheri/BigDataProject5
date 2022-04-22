@@ -12,7 +12,7 @@ class VGGImageClassifier(ImageClassifier):
     https://github.com/pytorch/serve/issues/535
     https://github.com/pytorch/vision/issues/2473
     """
-
+    # change pre-processing done to each image by adding a resize transformation to 32x32 at the end of all transformations
     image_processing = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
@@ -39,11 +39,3 @@ class VGGImageClassifier(ImageClassifier):
         model = model_class()
         model.load_state_dict(state_dict)
         return model
-    
-#def main():
-#    x = VGGImageClassifier()
-#    print(x.image_processing)
-
-#if __name__ == "__main__":
-#    main()
-
