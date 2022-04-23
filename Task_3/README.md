@@ -1,5 +1,7 @@
 ## Task 3 Instructions
 
+NOTE: Make sure to run "pip3 install captum" before running any of the following commands. It is a dependency and the prediction will hang if it is not installed prior to starting the server.
+
 The command to run task 3 is as follows:
 
 <b> ./run.sh </b>
